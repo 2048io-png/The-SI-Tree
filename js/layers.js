@@ -34,13 +34,13 @@ addLayer("p", {
 			title: "p12",
 			description: "Add +1 to the base point gain.",
 			cost: new Decimal(1),
-                        unlocked() {return hasUpgrade('p',11)
+                        unlocked() {return hasUpgrade('p',11)}
 		},
 		13: {
 			title: "p13",
 			description: "x1.6 point gain.",
 			cost: new Decimal(3),
-                        unlocked() {return hasUpgrade('p',12)
+                        unlocked() {return hasUpgrade('p',12)}
 		},
 	},
     layerShown(){return true}
